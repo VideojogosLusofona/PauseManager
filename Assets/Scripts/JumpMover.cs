@@ -21,11 +21,11 @@ public class JumpMover : MonoBehaviour
         anim.SetFloat("SpeedY", rb.velocity.y);
     }
 
-    public void Jump()
+    public void Jump(float scale = 1.0f)
     {
         var velocity = rb.velocity;
 
-        velocity.y = jumpSpeed;
+        velocity.y = jumpSpeed * scale;
 
         rb.velocity = velocity;
     }

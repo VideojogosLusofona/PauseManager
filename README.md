@@ -6,6 +6,10 @@ This prototype game was created to support an internal presentation on Component
 
 It's a simple platformer game, built mainly on composition of components, using very little inheritance.
 
+This uses a submodule, so either pull with git clone --recursive https://github.com/DiogoDeAndrade/CBS_Platformer, or after cloning the repo, use 
+- git submodule init
+- git submodule update
+
 ## Credits
 
 * Code done by [Diogo Andrade]

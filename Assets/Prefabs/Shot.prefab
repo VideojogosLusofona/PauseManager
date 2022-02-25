@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1860421716833931221}
   - component: {fileID: 1860421716833931222}
   - component: {fileID: 1860421716833931217}
+  - component: {fileID: 4104251465529692857}
   m_Layer: 0
   m_Name: Shot
   m_TagString: Untagged
@@ -47,9 +48,12 @@ TrailRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -239,3 +243,21 @@ MonoBehaviour:
   additionalEvents: []
   destructionTime: 0.01
   effectDestruction: {fileID: 0}
+--- !u!114 &4104251465529692857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1860421716833931223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ba4dda285f4d624eb267d672b596902, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  componentsToPause:
+  - {fileID: 1860421716833931221}
+  - {fileID: 1860421716833931222}
+  - {fileID: 1860421716833931217}
+  - {fileID: 4104251465529692857}
+  disablePhysics: 1
